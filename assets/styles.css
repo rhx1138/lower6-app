@@ -1,6 +1,10 @@
 /* Nav Styling */
+h1, h2, h3 {
+    font-weight: normal;
+}
+
 body {
-    background-color: lightseagreen;
+    background-color: rgb(1, 114, 219);
 }
 
 nav {
@@ -8,6 +12,8 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-ul {
@@ -20,8 +26,7 @@ nav {
 
 .nav-ul li a {
     display: inline-block;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
 }
