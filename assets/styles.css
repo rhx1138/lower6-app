@@ -1,4 +1,8 @@
 /* Nav Styling */
+body {
+    background-color: lightseagreen;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -20,4 +24,11 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.hamburger {
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: 0;
 }
