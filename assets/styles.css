@@ -9,8 +9,9 @@ body {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 15px;
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,6 +35,28 @@ nav {
 .hamburger {
     background-color: transparent;
     color: white;
+    cursor: pointer;
+    display: none;
     font-size: 30px;
     border: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .head-logo {
+        font-size: small;
+        margin-left: 40px;
+    }
 }
