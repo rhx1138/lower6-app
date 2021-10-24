@@ -1,10 +1,15 @@
-/* Nav Styling */
+html {
+	margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3 {
     font-weight: normal;
 }
 
 body {
     background-color: rgb(1, 114, 219);
+    margin: 0 auto;
 }
 
 nav {
@@ -16,6 +21,8 @@ nav {
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Nav Styling */
 
 .nav-ul {
     display: flex;
@@ -41,22 +48,40 @@ nav {
     border: 0;
 }
 
+.head-logo {
+    margin-left: 98px;
+}
+
 @media screen and (max-width: 767px) {
+    
+    
+    nav {
+        background-color: white;
+        color: black;
+        top: 0;
+    }
+    
     .nav-ul {
         display: none;
         flex-direction: column;
         width: 100%;
+        background-color: #FFFFFF;
     }
     
     .nav-ul.show {
         display: flex;
+        color: black;
     }
 
     .hamburger {
         display: block;
+        color: black;
     }
     .head-logo {
         font-size: small;
-        margin-left: 40px;
+        margin-left: 20px;
+    }
+    .nav-ul li a {
+        color: black;
     }
 }
