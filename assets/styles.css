@@ -1,15 +1,18 @@
 html {
-	margin: 0;
+    margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: normal;
 }
 
 body {
-    background-color: rgb(1, 114, 219);
     margin: 0 auto;
+    height: 100%;
 }
 
 nav {
@@ -18,7 +21,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    color: whitesmoke;
+    color: black;
+    background-color: transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -34,7 +38,7 @@ nav {
 
 .nav-ul li a {
     display: inline-block;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -43,7 +47,8 @@ nav {
     background-color: transparent;
     color: white;
     cursor: pointer;
-    display: none;
+    visibility: hidden;
+    /* display: none; */
     font-size: 30px;
     border: 0;
 }
@@ -52,38 +57,58 @@ nav {
     margin-left: 98px;
 }
 
+.hero {
+    background-image: url("/assets/images/bg-pattern.png");
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow-y: hidden;
+    background-color: rgb(95, 95, 235);
+
+    /* still having issues here */
+}
+
 @media screen and (max-width: 767px) {
-    
-    
+
+
     nav {
         background-color: white;
         color: black;
         top: 0;
     }
-    
+
     .nav-ul {
         display: none;
         flex-direction: column;
         width: 100%;
         background-color: #FFFFFF;
+
     }
-    
+
     .nav-ul.show {
         display: flex;
         color: black;
+
     }
 
     .hamburger {
         display: block;
         color: black;
+        /* need to add vis visable */
+        visibility: visible;
     }
+
     .head-logo {
         font-size: small;
         margin-left: 20px;
     }
+
     .nav-ul li a {
         color: black;
-       
+
+
     }
-    
+
+
+
 }
