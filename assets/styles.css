@@ -1,18 +1,14 @@
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
 h1,
 h2,
 h3 {
     font-weight: normal;
 }
 
+html,
 body {
     margin: 0 auto;
     height: 100%;
+    
 }
 
 nav {
@@ -21,7 +17,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    color: black;
+    color: whitesmoke;
     background-color: transparent;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -38,7 +34,7 @@ nav {
 
 .nav-ul li a {
     display: inline-block;
-    color: black;
+    color: whitesmoke;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -57,23 +53,23 @@ nav {
     margin-left: 98px;
 }
 
-.hero {
+.hero, .container {
     background-image: url("/assets/images/bg-pattern.png");
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 70%;
     overflow-y: hidden;
     background-color: rgb(95, 95, 235);
 
-    /* still having issues here */
+    /* added .container to have nav bg image behind nav */
 }
 
 @media screen and (max-width: 767px) {
 
 
     nav {
-        background-color: white;
-        color: black;
+        background-color: transparent;
+        color: white;
         top: 0;
     }
 
@@ -81,7 +77,6 @@ nav {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #FFFFFF;
 
     }
 
@@ -93,7 +88,7 @@ nav {
 
     .hamburger {
         display: block;
-        color: black;
+        color: white;
         /* need to add vis visable */
         visibility: visible;
     }
