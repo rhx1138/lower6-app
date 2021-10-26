@@ -11,7 +11,7 @@ h4 {
 }
 
 body {
-    background-color: darkblue;
+    background-color: thistle;
 }
 
 /* unsure of why this method is used */
@@ -61,7 +61,7 @@ nav ul {
     list-style-type: none;
     max-height: 0px;
     overflow: hidden;
-    transition: all 0.1s;
+    transition: all 0.2s;
 }
 
 nav ul li {
@@ -83,7 +83,30 @@ nav ul li a {
 #checkbox:checked~nav ul {
     max-height: 200px;
     padding: 15px 0;
-    transition: ease-in 0.1s;
+    transition: ease-in 0.2s;
+}
+
+.hero-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-wrap img {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.hero-text {
+    color: white;
+    font-size: 40px;
+}
+
+img {
+    width: 256px;
+    margin-left: 20px;
 }
 
 @media (min-width: 768px) {
