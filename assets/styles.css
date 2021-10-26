@@ -100,8 +100,9 @@ nav ul li a {
 }
 
 .hero-text {
-    color: white;
-    font-size: 40px;
+    width: 450px;
+    color: #faf9f9;
+    font-size: 35px;
 }
 
 img {
@@ -120,7 +121,7 @@ img {
     }
 
     .nav-logo {
-        color: whitesmoke;
+        color: rgba(255, 255, 255, 0.7);
     }
 
     nav {
@@ -142,6 +143,6 @@ img {
     }
 
     nav ul li a {
-        color: whitesmoke;
+        color: rgba(255, 255, 255, 0.7);
     }
 }
