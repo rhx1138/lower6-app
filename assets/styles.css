@@ -110,6 +110,20 @@ img {
     margin-left: 20px;
 }
 
+@media (max-width: 900px) {
+    .hero-text {
+        width: 450px;
+        color: #faf9f9;
+        font-size: 25px;
+    }
+    
+    img {
+        width: 200px;
+        margin-left: 20px;
+    }  
+
+}
+
 @media (min-width: 768px) {
    
     .menu-icon {
@@ -122,6 +136,7 @@ img {
 
     .nav-logo {
         color: rgba(255, 255, 255, 0.7);
+        margin-left: 50px;
     }
 
     nav {
