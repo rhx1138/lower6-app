@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -16,7 +17,7 @@ body {
 
 /* unsure of why this method is used */
 header {
-    height: 70px;
+    height: 700px;
 }
 
 .menu-icon {
@@ -37,7 +38,7 @@ header {
     padding: 15px;
     color: black;
     background-color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .hero {
@@ -92,7 +93,7 @@ nav ul li a {
     align-items: center;
     justify-content: space-evenly;
     margin: 0 60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .hero-wrap img {
@@ -112,6 +113,24 @@ img {
     margin: 20px;
     margin-left: 20px;
 }
+
+.download-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #696969;
+    background-color: #F8F8FA;
+    height: 420px;
+}
+
+.download-text {
+    text-align: center;
+    margin-top: 30px;
+    width: 700px;
+    font-size: x-large;
+}
+
+
 
 @media (max-width: 900px) {
     .hero-text {
@@ -183,6 +202,6 @@ img {
         align-items: center;
         justify-content: space-evenly;
         margin: 0 60px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     }
 }
