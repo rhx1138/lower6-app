@@ -88,6 +88,7 @@ nav ul li a {
 
 .hero-wrap {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 60px;
@@ -103,10 +104,12 @@ nav ul li a {
     width: 450px;
     color: #faf9f9;
     font-size: 35px;
+
 }
 
 img {
     width: 256px;
+    margin: 20px;
     margin-left: 20px;
 }
 
@@ -122,6 +125,19 @@ img {
         margin-left: 20px;
     }  
 
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text {
+        width: 250px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -160,4 +176,12 @@ img {
     nav ul li a {
         color: rgba(255, 255, 255, 0.7);
     }
+
+    .hero-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
