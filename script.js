@@ -1,8 +1,9 @@
 // hamburger controller
 
-const hamburger = document.getElementById('hamburger');
-const navUL = document.getElementById('nav-ul');
+// const hamburger = document.getElementById('hamburger');
+// const navUL = document.getElementById('nav-ul');
 
+<<<<<<< HEAD
 hamburger.addEventListener('click', () => {
     navUL.classList.toggle('show');
 })
@@ -22,3 +23,8 @@ function svgToBase64Image(svgElement) {
             '<br><br>background: ' + url + ';';
   document.getElementById('code').innerHTML = msg;
   document.body.style.background = url;
+=======
+// hamburger.addEventListener('click', () => {
+//     navUL.classList.toggle('show');
+// })
+>>>>>>> feature-navbar-two
