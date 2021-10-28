@@ -42,7 +42,7 @@ header {
 }
 
 .hero {
-    background-image: url("/assets/images/bg-pattern.png"),  #00B847;
+    background-image: url("/assets/images/bg-pattern.png"), #00B847;
     background-image: url("/assets/images/bg-pattern.png"), -webkit-linear-gradient(to left, #00B847, #3765F4);
     background: url("/assets/images/bg-pattern.png"), linear-gradient(to left, #00B847, #3765F4);
     width: 100%;
@@ -126,10 +126,17 @@ img {
 .download-text {
     text-align: center;
     margin-top: 30px;
-    width: 700px;
-    font-size: x-large;
+    width: 400px;
+    font-size: large;
 }
 
+.badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+
+}
 
 
 @media (max-width: 900px) {
@@ -138,11 +145,11 @@ img {
         color: #faf9f9;
         font-size: 25px;
     }
-    
+
     img {
         width: 200px;
         margin-left: 20px;
-    }  
+    }
 
 }
 
@@ -157,10 +164,15 @@ img {
     .hero-text {
         width: 250px;
     }
+
+    /* .download-wrap {
+        justify-content: center;
+        align-items: center;
+    } */
 }
 
 @media (min-width: 768px) {
-   
+
     .menu-icon {
         visibility: hidden;
     }
@@ -203,5 +215,16 @@ img {
         justify-content: space-evenly;
         margin: 0 60px;
         /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    }
+
+    .download-text {
+        font-size: x-large;
+        width: 700px;
+    }
+
+    .badges {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
