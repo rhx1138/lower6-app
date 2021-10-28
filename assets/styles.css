@@ -163,6 +163,12 @@ img {
     width: 120px;
 }
 
+.features-video-icons {
+    text-align: center;
+}
+
+
+
 
 @media (max-width: 900px) {
     .hero-text {
@@ -253,7 +259,7 @@ img {
         align-items: center;
     }
 
-   
+
 
     .features-wrap {
         display: flex;
@@ -266,9 +272,11 @@ img {
         display: flex;
         justify-content: center;
     }
-.features-video-phone {
-    margin-right: 50px;
-}
+
+    .features-video-phone {
+        margin-right: 50px;
+    }
+
     .features-text {
         font-size: x-large;
         align-items: center;
@@ -280,12 +288,14 @@ img {
     .features-video-icons {
         display: flex;
     }
+
     .top-icons {
         display: flex;
         flex-direction: column;
     }
+
     .bottom-icons {
-     display: flex;
-     flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 }
