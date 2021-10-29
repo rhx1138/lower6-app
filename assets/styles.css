@@ -189,6 +189,9 @@ img {
         font-size: 20px;
         margin-top: 20px;
     }
+    .features {
+        height: 1420px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -196,10 +199,9 @@ img {
         width: 250px;
     }
 
-    /* .download-wrap {
-        justify-content: center;
-        align-items: center;
-    } */
+   /* .features {
+       height: 1420px;
+   } */
 }
 
 @media (min-width: 768px) {
