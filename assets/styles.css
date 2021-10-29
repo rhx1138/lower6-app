@@ -167,6 +167,20 @@ img {
     text-align: center;
 }
 
+.bg-scene {
+    height: 700px;
+    display: flex;
+    
+}
+
+.bg-scene-wrap {
+    background-image: url("/assets/images/bg-sw.png");
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
 
 
 
@@ -189,8 +203,12 @@ img {
         font-size: 20px;
         margin-top: 20px;
     }
+
     .features {
         height: 1420px;
+    }
+    .features-wrap {
+        height: 1294px;
     }
 }
 
@@ -199,9 +217,7 @@ img {
         width: 250px;
     }
 
-   /* .features {
-       height: 1420px;
-   } */
+
 }
 
 @media (min-width: 768px) {
