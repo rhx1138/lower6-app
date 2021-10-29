@@ -161,6 +161,7 @@ img {
 
 .icon {
     width: 120px;
+    margin: 25px;
 }
 
 .features-video-icons {
@@ -168,7 +169,7 @@ img {
 }
 
 .bg-scene {
-    height: 700px;
+    height: 500px;
     display: flex;
     
 }
@@ -181,7 +182,12 @@ img {
     background-size: cover;
 }
 
-
+.text {
+    margin-top: 180px;
+    margin-left: 40px;
+    font-size: x-large;
+    color: white;
+}
 
 
 @media (max-width: 900px) {
@@ -197,7 +203,7 @@ img {
     }
 
 }
-
+/* fixes border with bg-scene and features sections */
 @media (max-width: 768px) {
     .hero-text {
         font-size: 20px;
