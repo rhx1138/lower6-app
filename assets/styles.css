@@ -182,11 +182,32 @@ img {
     background-size: cover;
 }
 
-.text {
+.bg-scene-text {
     margin-top: 180px;
     margin-left: 40px;
     font-size: x-large;
     color: white;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8FA;
+    color: #696969;;
+    
+}
+
+.privacy-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.privacy p {
+    margin: 5px;
+    max-width: 800px;
 }
 
 
@@ -202,6 +223,13 @@ img {
         margin-left: 20px;
     }
 
+
+}
+
+@media (max-width: 900px) {
+    .privacy p{
+        width: 480px;
+    }
 }
 /* fixes border with bg-scene and features sections */
 @media (max-width: 768px) {
@@ -221,6 +249,10 @@ img {
 @media (max-width: 480px) {
     .hero-text {
         width: 250px;
+    }
+
+    .privacy p{
+        width: 320px;
     }
 
 
@@ -322,4 +354,6 @@ img {
         display: flex;
         flex-direction: column;
     }
+
+    
 }
