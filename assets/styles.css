@@ -33,8 +33,12 @@ header {
     margin-top: 5px;
 }
 
+/* added position fixed and width 100% */
+/* issue with margin and items moving up to top */
 .nav-wrap {
     display: flex;
+    /* position: fixed;
+    width: 100%; */
     justify-content: space-between;
     padding: 15px;
     color: black;
@@ -263,7 +267,7 @@ img {
     .menu-icon {
         visibility: hidden;
     }
-
+/* on scroll added here for white background-color */
     .nav-wrap {
         background-color: transparent;
     }
