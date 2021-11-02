@@ -31,3 +31,15 @@ function navigatePrivacy(e) {
     behavior: "smooth"
   });
 }
+
+
+// for the navbar to be fixed and white on scroll
+
+const navbar = document.querySelector('.nav-fixed');
+window.onscroll = () => {
+    if (window.scrollY > 300) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};

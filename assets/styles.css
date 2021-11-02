@@ -175,7 +175,7 @@ img {
 .bg-scene {
     height: 500px;
     display: flex;
-    
+
 }
 
 .bg-scene-wrap {
@@ -197,8 +197,9 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #F8F8FA;
-    color: #696969;;
-    
+    color: #696969;
+    ;
+
 }
 
 .privacy-wrap {
@@ -231,10 +232,11 @@ img {
 }
 
 @media (max-width: 900px) {
-    .privacy p{
+    .privacy p {
         width: 480px;
     }
 }
+
 /* fixes border with bg-scene and features sections */
 @media (max-width: 768px) {
     .hero-text {
@@ -245,6 +247,7 @@ img {
     .features {
         height: 1420px;
     }
+
     .features-wrap {
         height: 1294px;
     }
@@ -255,7 +258,7 @@ img {
         width: 250px;
     }
 
-    .privacy p{
+    .privacy p {
         width: 320px;
     }
 
@@ -267,9 +270,18 @@ img {
     .menu-icon {
         visibility: hidden;
     }
-/* on scroll added here for white background-color */
+
+    /* on scroll added here for white background-color */
     .nav-wrap {
         background-color: transparent;
+        /* position: fixed; */
+        /* width: 100%; */
+    }
+
+    .nav-colored.scrolled {
+        background-color: white;
+        position: fixed;
+        width: 100%;
     }
 
     .nav-logo {
@@ -359,5 +371,5 @@ img {
         flex-direction: column;
     }
 
-    
+
 }
