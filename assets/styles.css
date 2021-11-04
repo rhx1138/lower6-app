@@ -278,7 +278,7 @@ img {
         /* width: 100%; */
     }
 
-    .nav-colored.scrolled {
+    header.nav-colored {
         background-color: white;
         position: fixed;
         width: 100%;

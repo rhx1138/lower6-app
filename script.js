@@ -35,11 +35,11 @@ function navigatePrivacy(e) {
 
 // for the navbar to be fixed and white on scroll
 
-const navbar = document.querySelector('.nav-fixed');
+const navbar = document.querySelector('header.nav-colored');
 window.onscroll = () => {
     if (window.scrollY > 300) {
-        navbar.classList.add('nav-active');
+        navbar.classList.add('.nav-wrap');
     } else {
-        navbar.classList.remove('nav-active');
+        navbar.classList.remove('.nav-wrap');
     }
 };
