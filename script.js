@@ -35,11 +35,23 @@ function navigatePrivacy(e) {
 
 // for the navbar to be fixed and white on scroll
 
-const navbar = document.querySelector('header.nav-colored');
-window.onscroll = () => {
-    if (window.scrollY > 300) {
-        navbar.classList.add('.nav-wrap');
-    } else {
-        navbar.classList.remove('.nav-wrap');
-    }
-};
+// const navbar = document.querySelector('.nav-wrap');
+// window.onscroll = () => {
+//     if (window.scrollY > 300) {
+//         navbar.classList.add('.nav-wrap');
+//     } else {
+//         navbar.classList.remove('.nav-wrap');
+//     }
+// };
+
+var navbar = document.querySelector('.nav-wrap')
+
+window.onscroll = function() {
+
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+}
