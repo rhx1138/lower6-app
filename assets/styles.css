@@ -33,17 +33,21 @@ header {
     margin-top: 5px;
 }
 
-/* added position fixed and width 100% */
-/* issue with margin and items moving up to top */
+/* add scroll script here  */
 .nav-wrap {
     display: flex;
-    /* position: fixed;
-    width: 100%; */
     justify-content: space-between;
     padding: 15px;
     color: black;
     background-color: whitesmoke;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.nav-wrap.scrolled {
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
 }
 
 .hero {
@@ -279,13 +283,11 @@ img {
     }
 
     .nav-wrap.scrolled {
-        background-color: white;
-        color: black !important;
+        background-color: lightgray;
         position: fixed;
         width: 100%;
     }
 
-   
 
     .nav-logo {
         color: rgba(255, 255, 255, 0.7);
